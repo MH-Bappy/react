@@ -1,0 +1,91 @@
+.naver{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.naverLOgo{
+    width: 150px;
+}
+.naverMenu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+    cursor: pointer;
+}
+.naverR{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.naver button{
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid tomato;
+    outline: none;
+    color: #49557e;
+    padding: 0.8vw 2.3vw;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.naver button:hover{
+    background-color: #fff4f2;
+}
+.active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e ;
+}
+.naverC_icon{
+    position: relative;
+}
+
+@media(max-width:1050px){
+    .naverLOgo{
+        width: 140px;
+    }
+    .naverMenu{
+        gap:20px;
+        font-size: 17px;
+    }
+    .naverR{
+        gap: 30px;
+    }
+    .naverR img{
+        width: 22px;
+    }
+    .naverR button{
+        padding: 8px 25px;
+    }
+}
+
+
+@media(max-width:900px){
+    .naverLOgo{
+        width: 120px;
+    }
+    .naverMenu{
+        gap:15px;
+        font-size: 16px;
+    }
+    .naverR{
+        gap: 20px;
+    }
+    .naverR img{
+        width: 20px;
+    }
+    .naverR button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:750px){
+    
+    .naverMenu{
+        display: none;
+    }
+    
+}
